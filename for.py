@@ -10,7 +10,7 @@
 soma = 0
 
 for i in range(1, 4):
-    nota = float(input(f"Informa a sua nota [i]: "))
+    nota = float(input(f"Informa a sua nota {i}: "))
 
     soma = soma + nota
 
